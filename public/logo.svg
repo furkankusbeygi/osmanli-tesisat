@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" role="img" aria-label="Osmanlı Tesisat kaliteli SVG logo">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFE3A1"/>
+      <stop offset="22%" stop-color="#C7954E"/>
+      <stop offset="52%" stop-color="#F0C879"/>
+      <stop offset="78%" stop-color="#B98544"/>
+      <stop offset="100%" stop-color="#F7DFA0"/>
+    </linearGradient>
+    <linearGradient id="dark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#061520"/>
+      <stop offset="100%" stop-color="#0B2230"/>
+    </linearGradient>
+    <path id="topTextArc" d="M 230 315 A 335 335 0 0 1 770 315"/>
+    <path id="lowerTextArc" d="M 280 700 A 255 255 0 0 0 720 700"/>
+  </defs>
+  
+  <g id="logo">
+    <circle cx="500" cy="500" r="448" fill="url(#dark)"/>
+    <circle cx="500" cy="500" r="438" fill="none" stroke="url(#gold)" stroke-width="10"/>
+    <circle cx="500" cy="500" r="410" fill="none" stroke="url(#gold)" stroke-width="3" opacity="0.9"/>
+    <ellipse cx="923.00" cy="500.00" rx="4.0" ry="12.0" transform="rotate(90.00 923.00 500.00)" fill="url(#gold)" opacity="0.95"/><path d="M 920.96 533.46 L 925.96 541.46 L 920.96 549.46 L 915.96 541.46 Z" transform="rotate(95.62 920.96 541.46)" fill="url(#gold)" opacity="0.9"/><ellipse cx="914.87" cy="582.52" rx="4.0" ry="12.0" transform="rotate(101.25 914.87 582.52)" fill="url(#gold)" opacity="0.95"/><path d="M 904.79 614.79 L 909.79 622.79 L 904.79 630.79 L 899.79 622.79 Z" transform="rotate(106.88 904.79 622.79)" fill="url(#gold)" opacity="0.9"/><ellipse cx="890.80" cy="661.88" rx="4.0" ry="12.0" transform="rotate(112.50 890.80 661.88)" fill="url(#gold)" opacity="0.95"/><path d="M 873.05 691.40 L 878.05 699.40 L 873.05 707.40 L 868.05 699.40 Z" transform="rotate(118.12 873.05 699.40)" fill="url(#gold)" opacity="0.9"/><ellipse cx="851.71" cy="735.01" rx="4.0" ry="12.0" transform="rotate(123.75 851.71 735.01)" fill="url(#gold)" opacity="0.95"/><path d="M 826.98 760.35 L 831.98 768.35 L 826.98 776.35 L 821.98 768.35 Z" transform="rotate(129.38 826.98 768.35)" fill="url(#gold)" opacity="0.9"/><ellipse cx="799.11" cy="799.11" rx="4.0" ry="12.0" transform="rotate(135.00 799.11 799.11)" fill="url(#gold)" opacity="0.95"/><path d="M 768.35 818.98 L 773.35 826.98 L 768.35 834.98 L 763.35 826.98 Z" transform="rotate(140.62 768.35 826.98)" fill="url(#gold)" opacity="0.9"/><ellipse cx="735.01" cy="851.71" rx="4.0" ry="12.0" transform="rotate(146.25 735.01 851.71)" fill="url(#gold)" opacity="0.95"/><path d="M 699.40 865.05 L 704.40 873.05 L 699.40 881.05 L 694.40 873.05 Z" transform="rotate(151.88 699.40 873.05)" fill="url(#gold)" opacity="0.9"/><ellipse cx="661.88" cy="890.80" rx="4.0" ry="12.0" transform="rotate(157.50 661.88 890.80)" fill="url(#gold)" opacity="0.95"/><path d="M 622.79 896.79 L 627.79 904.79 L 622.79 912.79 L 617.79 904.79 Z" transform="rotate(163.12 622.79 904.79)" fill="url(#gold)" opacity="0.9"/><ellipse cx="582.52" cy="914.87" rx="4.0" ry="12.0" transform="rotate(168.75 582.52 914.87)" fill="url(#gold)" opacity="0.95"/><path d="M 541.46 912.96 L 546.46 920.96 L 541.46 928.96 L 536.46 920.96 Z" transform="rotate(174.38 541.46 920.96)" fill="url(#gold)" opacity="0.9"/><ellipse cx="500.00" cy="923.00" rx="4.0" ry="12.0" transform="rotate(180.00 500.00 923.00)" fill="url(#gold)" opacity="0.95"/><path d="M 458.54 912.96 L 463.54 920.96 L 458.54 928.96 L 453.54 920.96 Z" transform="rotate(185.62 458.54 920.96)" fill="url(#gold)" opacity="0.9"/><ellipse cx="417.48" cy="914.87" rx="4.0" ry="12.0" transform="rotate(191.25 417.48 914.87)" fill="url(#gold)" opacity="0.95"/><path d="M 377.21 896.79 L 382.21 904.79 L 377.21 912.79 L 372.21 904.79 Z" transform="rotate(196.88 377.21 904.79)" fill="url(#gold)" opacity="0.9"/><ellipse cx="338.12" cy="890.80" rx="4.0" ry="12.0" transform="rotate(202.50 338.12 890.80)" fill="url(#gold)" opacity="0.95"/><path d="M 300.60 865.05 L 305.60 873.05 L 300.60 881.05 L 295.60 873.05 Z" transform="rotate(208.12 300.60 873.05)" fill="url(#gold)" opacity="0.9"/><ellipse cx="264.99" cy="851.71" rx="4.0" ry="12.0" transform="rotate(213.75 264.99 851.71)" fill="url(#gold)" opacity="0.95"/><path d="M 231.65 818.98 L 236.65 826.98 L 231.65 834.98 L 226.65 826.98 Z" transform="rotate(219.38 231.65 826.98)" fill="url(#gold)" opacity="0.9"/><ellipse cx="200.89" cy="799.11" rx="4.0" ry="12.0" transform="rotate(225.00 200.89 799.11)" fill="url(#gold)" opacity="0.95"/><path d="M 173.02 760.35 L 178.02 768.35 L 173.02 776.35 L 168.02 768.35 Z" transform="rotate(230.62 173.02 768.35)" fill="url(#gold)" opacity="0.9"/><ellipse cx="148.29" cy="735.01" rx="4.0" ry="12.0" transform="rotate(236.25 148.29 735.01)" fill="url(#gold)" opacity="0.95"/><path d="M 126.95 691.40 L 131.95 699.40 L 126.95 707.40 L 121.95 699.40 Z" transform="rotate(241.88 126.95 699.40)" fill="url(#gold)" opacity="0.9"/><ellipse cx="109.20" cy="661.88" rx="4.0" ry="12.0" transform="rotate(247.50 109.20 661.88)" fill="url(#gold)" opacity="0.95"/><path d="M 95.21 614.79 L 100.21 622.79 L 95.21 630.79 L 90.21 622.79 Z" transform="rotate(253.12 95.21 622.79)" fill="url(#gold)" opacity="0.9"/><ellipse cx="85.13" cy="582.52" rx="4.0" ry="12.0" transform="rotate(258.75 85.13 582.52)" fill="url(#gold)" opacity="0.95"/><path d="M 79.04 533.46 L 84.04 541.46 L 79.04 549.46 L 74.04 541.46 Z" transform="rotate(264.38 79.04 541.46)" fill="url(#gold)" opacity="0.9"/><ellipse cx="77.00" cy="500.00" rx="4.0" ry="12.0" transform="rotate(270.00 77.00 500.00)" fill="url(#gold)" opacity="0.95"/><path d="M 79.04 450.54 L 84.04 458.54 L 79.04 466.54 L 74.04 458.54 Z" transform="rotate(275.62 79.04 458.54)" fill="url(#gold)" opacity="0.9"/><ellipse cx="85.13" cy="417.48" rx="4.0" ry="12.0" transform="rotate(281.25 85.13 417.48)" fill="url(#gold)" opacity="0.95"/><path d="M 95.21 369.21 L 100.21 377.21 L 95.21 385.21 L 90.21 377.21 Z" transform="rotate(286.88 95.21 377.21)" fill="url(#gold)" opacity="0.9"/><ellipse cx="109.20" cy="338.12" rx="4.0" ry="12.0" transform="rotate(292.50 109.20 338.12)" fill="url(#gold)" opacity="0.95"/><path d="M 126.95 292.60 L 131.95 300.60 L 126.95 308.60 L 121.95 300.60 Z" transform="rotate(298.12 126.95 300.60)" fill="url(#gold)" opacity="0.9"/><ellipse cx="148.29" cy="264.99" rx="4.0" ry="12.0" transform="rotate(303.75 148.29 264.99)" fill="url(#gold)" opacity="0.95"/><path d="M 173.02 223.65 L 178.02 231.65 L 173.02 239.65 L 168.02 231.65 Z" transform="rotate(309.38 173.02 231.65)" fill="url(#gold)" opacity="0.9"/><ellipse cx="200.89" cy="200.89" rx="4.0" ry="12.0" transform="rotate(315.00 200.89 200.89)" fill="url(#gold)" opacity="0.95"/><path d="M 231.65 165.02 L 236.65 173.02 L 231.65 181.02 L 226.65 173.02 Z" transform="rotate(320.62 231.65 173.02)" fill="url(#gold)" opacity="0.9"/><ellipse cx="264.99" cy="148.29" rx="4.0" ry="12.0" transform="rotate(326.25 264.99 148.29)" fill="url(#gold)" opacity="0.95"/><path d="M 300.60 118.95 L 305.60 126.95 L 300.60 134.95 L 295.60 126.95 Z" transform="rotate(331.88 300.60 126.95)" fill="url(#gold)" opacity="0.9"/><ellipse cx="338.12" cy="109.20" rx="4.0" ry="12.0" transform="rotate(337.50 338.12 109.20)" fill="url(#gold)" opacity="0.95"/><path d="M 377.21 87.21 L 382.21 95.21 L 377.21 103.21 L 372.21 95.21 Z" transform="rotate(343.12 377.21 95.21)" fill="url(#gold)" opacity="0.9"/><ellipse cx="417.48" cy="85.13" rx="4.0" ry="12.0" transform="rotate(348.75 417.48 85.13)" fill="url(#gold)" opacity="0.95"/><path d="M 458.54 71.04 L 463.54 79.04 L 458.54 87.04 L 453.54 79.04 Z" transform="rotate(354.38 458.54 79.04)" fill="url(#gold)" opacity="0.9"/><ellipse cx="500.00" cy="77.00" rx="4.0" ry="12.0" transform="rotate(360.00 500.00 77.00)" fill="url(#gold)" opacity="0.95"/><path d="M 541.46 71.04 L 546.46 79.04 L 541.46 87.04 L 536.46 79.04 Z" transform="rotate(365.62 541.46 79.04)" fill="url(#gold)" opacity="0.9"/><ellipse cx="582.52" cy="85.13" rx="4.0" ry="12.0" transform="rotate(371.25 582.52 85.13)" fill="url(#gold)" opacity="0.95"/><path d="M 622.79 87.21 L 627.79 95.21 L 622.79 103.21 L 617.79 95.21 Z" transform="rotate(376.88 622.79 95.21)" fill="url(#gold)" opacity="0.9"/><ellipse cx="661.88" cy="109.20" rx="4.0" ry="12.0" transform="rotate(382.50 661.88 109.20)" fill="url(#gold)" opacity="0.95"/><path d="M 699.40 118.95 L 704.40 126.95 L 699.40 134.95 L 694.40 126.95 Z" transform="rotate(388.12 699.40 126.95)" fill="url(#gold)" opacity="0.9"/><ellipse cx="735.01" cy="148.29" rx="4.0" ry="12.0" transform="rotate(393.75 735.01 148.29)" fill="url(#gold)" opacity="0.95"/><path d="M 768.35 165.02 L 773.35 173.02 L 768.35 181.02 L 763.35 173.02 Z" transform="rotate(399.38 768.35 173.02)" fill="url(#gold)" opacity="0.9"/><ellipse cx="799.11" cy="200.89" rx="4.0" ry="12.0" transform="rotate(405.00 799.11 200.89)" fill="url(#gold)" opacity="0.95"/><path d="M 826.98 223.65 L 831.98 231.65 L 826.98 239.65 L 821.98 231.65 Z" transform="rotate(410.62 826.98 231.65)" fill="url(#gold)" opacity="0.9"/><ellipse cx="851.71" cy="264.99" rx="4.0" ry="12.0" transform="rotate(416.25 851.71 264.99)" fill="url(#gold)" opacity="0.95"/><path d="M 873.05 292.60 L 878.05 300.60 L 873.05 308.60 L 868.05 300.60 Z" transform="rotate(421.88 873.05 300.60)" fill="url(#gold)" opacity="0.9"/><ellipse cx="890.80" cy="338.12" rx="4.0" ry="12.0" transform="rotate(427.50 890.80 338.12)" fill="url(#gold)" opacity="0.95"/><path d="M 904.79 369.21 L 909.79 377.21 L 904.79 385.21 L 899.79 377.21 Z" transform="rotate(433.12 904.79 377.21)" fill="url(#gold)" opacity="0.9"/><ellipse cx="914.87" cy="417.48" rx="4.0" ry="12.0" transform="rotate(438.75 914.87 417.48)" fill="url(#gold)" opacity="0.95"/><path d="M 920.96 450.54 L 925.96 458.54 L 920.96 466.54 L 915.96 458.54 Z" transform="rotate(444.38 920.96 458.54)" fill="url(#gold)" opacity="0.9"/><circle cx="882.18" cy="525.05" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="879.72" cy="549.99" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="869.95" cy="599.13" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="862.67" cy="623.11" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="843.50" cy="669.40" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="831.69" cy="691.50" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="803.85" cy="733.16" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="787.95" cy="752.53" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="752.53" cy="787.95" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="733.16" cy="803.85" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="691.50" cy="831.69" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="669.40" cy="843.50" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="623.11" cy="862.67" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="599.13" cy="869.95" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="549.99" cy="879.72" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="525.05" cy="882.18" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="474.95" cy="882.18" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="450.01" cy="879.72" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="400.87" cy="869.95" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="376.89" cy="862.67" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="330.60" cy="843.50" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="308.50" cy="831.69" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="266.84" cy="803.85" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="247.47" cy="787.95" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="212.05" cy="752.53" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="196.15" cy="733.16" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="168.31" cy="691.50" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="156.50" cy="669.40" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="137.33" cy="623.11" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="130.05" cy="599.13" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="120.28" cy="549.99" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="117.82" cy="525.05" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="117.82" cy="474.95" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="120.28" cy="450.01" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="130.05" cy="400.87" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="137.33" cy="376.89" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="156.50" cy="330.60" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="168.31" cy="308.50" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="196.15" cy="266.84" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="212.05" cy="247.47" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="247.47" cy="212.05" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="266.84" cy="196.15" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="308.50" cy="168.31" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="330.60" cy="156.50" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="376.89" cy="137.33" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="400.87" cy="130.05" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="450.01" cy="120.28" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="474.95" cy="117.82" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="525.05" cy="117.82" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="549.99" cy="120.28" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="599.13" cy="130.05" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="623.11" cy="137.33" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="669.40" cy="156.50" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="691.50" cy="168.31" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="733.16" cy="196.15" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="752.53" cy="212.05" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="787.95" cy="247.47" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="803.85" cy="266.84" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="831.69" cy="308.50" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="843.50" cy="330.60" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="862.67" cy="376.89" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="869.95" cy="400.87" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="879.72" cy="450.01" r="2.6" fill="url(#gold)" opacity="0.75"/><circle cx="882.18" cy="474.95" r="2.6" fill="url(#gold)" opacity="0.75"/>
+    <circle cx="500" cy="500" r="360" fill="none" stroke="url(#gold)" stroke-width="8"/>
+    <circle cx="500" cy="500" r="325" fill="none" stroke="url(#gold)" stroke-width="72"/>
+    <circle cx="500" cy="500" r="282" fill="url(#dark)"/>
+    <circle cx="500" cy="500" r="292" fill="none" stroke="#061520" stroke-width="14" opacity="0.95"/>
+    <circle cx="500" cy="500" r="276" fill="none" stroke="url(#gold)" stroke-width="8"/>
+
+    <text font-family="Noto Serif Display, DejaVu Serif, Georgia, serif" font-weight="900" font-size="76" letter-spacing="13" fill="#061520">
+      <textPath href="#topTextArc" startOffset="50%" text-anchor="middle">OSMANLI</textPath>
+    </text>
+
+    
+    <g fill="none" stroke="url(#gold)" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M238 386 C190 344 190 303 237 277 C228 316 244 342 281 358" stroke-width="8"/>
+      <path d="M762 386 C810 344 810 303 763 277 C772 316 756 342 719 358" stroke-width="8"/>
+      <path d="M237 277 C260 265 287 266 309 282" stroke-width="5"/>
+      <path d="M763 277 C740 265 713 266 691 282" stroke-width="5"/>
+      <path d="M218 348 C195 355 180 372 173 399" stroke-width="5"/>
+      <path d="M782 348 C805 355 820 372 827 399" stroke-width="5"/>
+    </g>
+    
+    
+    <g id="tughra" fill="none" stroke="url(#gold)" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M316 516 C378 446 462 449 508 504 C536 537 491 585 438 553 C398 529 412 474 474 476 C535 478 574 540 641 531 C681 526 713 508 742 486" stroke-width="13"/>
+      <path d="M335 547 C405 596 505 603 595 565 C646 544 694 544 752 566" stroke-width="9"/>
+      <path d="M478 511 C453 472 458 424 505 393 C544 368 585 383 596 421 C609 468 551 500 515 469" stroke-width="8"/>
+      <path d="M509 493 C542 437 541 360 514 285" stroke-width="10"/>
+      <path d="M548 489 C584 420 582 344 555 269" stroke-width="10"/>
+      <path d="M589 486 C622 421 616 362 594 315" stroke-width="9"/>
+      <path d="M432 532 C383 520 359 561 383 589 C409 620 466 597 455 557" stroke-width="8"/>
+      <path d="M447 553 C494 575 534 584 583 573" stroke-width="7"/>
+      <path d="M382 472 C413 428 455 408 505 409" stroke-width="7"/>
+      <path d="M626 428 C678 435 704 465 733 501" stroke-width="7"/>
+      <path d="M378 586 C332 609 295 596 282 566 C315 574 339 565 360 544" stroke-width="6"/>
+      <path d="M643 524 C682 541 724 539 775 517" stroke-width="7"/>
+      <path d="M474 399 C442 360 416 344 381 342 C397 365 414 382 443 396" stroke-width="6"/>
+      <path d="M620 398 C652 360 681 343 718 340 C700 366 681 385 650 398" stroke-width="6"/>
+    </g>
+    <g id="tughra-dots" fill="url(#gold)">
+      <circle cx="447" cy="522" r="7"/><circle cx="488" cy="545" r="5"/><circle cx="533" cy="540" r="5"/>
+      <circle cx="576" cy="528" r="4.5"/><circle cx="406" cy="563" r="4.5"/>
+    </g>
+    
+
+    <text x="500" y="663" text-anchor="middle" font-family="Noto Serif Display, DejaVu Serif, Georgia, serif" font-weight="900" font-size="72" letter-spacing="8" fill="url(#gold)">TESİSAT</text>
+
+    <path d="M 255 690 A 278 278 0 0 0 745 690" fill="none" stroke="url(#gold)" stroke-width="4" opacity="0.85"/>
+    <text x="500" y="718" text-anchor="middle" font-family="Noto Serif Display, DejaVu Serif, Georgia, serif" font-weight="800" font-size="18" letter-spacing="1.1" fill="url(#gold)">PROFESYONEL SIHHİ TESİSAT HİZMETLERİ</text>
+
+    
+      <path d="M325 772 C285 782 270 765 252 746 C285 750 310 761 330 768" fill="none" stroke="url(#gold)" stroke-width="7" stroke-linecap="round"/>
+      <path d="M675 772 C715 782 730 765 748 746 C715 750 690 761 670 768" fill="none" stroke="url(#gold)" stroke-width="7" stroke-linecap="round"/>
+      <path d="M312 752 C290 748 278 733 265 710" fill="none" stroke="url(#gold)" stroke-width="5" stroke-linecap="round"/>
+      <path d="M688 752 C710 748 722 733 735 710" fill="none" stroke="url(#gold)" stroke-width="5" stroke-linecap="round"/>
+    
+    
+    <g transform="translate(385 765) scale(.95)">
+      <circle cx="0" cy="0" r="7" fill="url(#gold)"/>
+      <ellipse cx="0" cy="-18" rx="7" ry="18" fill="url(#gold)"/>
+      <ellipse cx="0" cy="-18" rx="7" ry="18" fill="url(#gold)" transform="rotate(45)"/>
+      <ellipse cx="0" cy="-18" rx="7" ry="18" fill="url(#gold)" transform="rotate(90)"/>
+      <ellipse cx="0" cy="-18" rx="7" ry="18" fill="url(#gold)" transform="rotate(135)"/>
+      <ellipse cx="0" cy="-18" rx="7" ry="18" fill="url(#gold)" transform="rotate(180)"/>
+      <ellipse cx="0" cy="-18" rx="7" ry="18" fill="url(#gold)" transform="rotate(225)"/>
+      <ellipse cx="0" cy="-18" rx="7" ry="18" fill="url(#gold)" transform="rotate(270)"/>
+      <ellipse cx="0" cy="-18" rx="7" ry="18" fill="url(#gold)" transform="rotate(315)"/>
+    </g>
+    
+    <g transform="translate(615 765) scale(.95)">
+      <circle cx="0" cy="0" r="7" fill="url(#gold)"/>
+      <ellipse cx="0" cy="-18" rx="7" ry="18" fill="url(#gold)"/>
+      <ellipse cx="0" cy="-18" rx="7" ry="18" fill="url(#gold)" transform="rotate(45)"/>
+      <ellipse cx="0" cy="-18" rx="7" ry="18" fill="url(#gold)" transform="rotate(90)"/>
+      <ellipse cx="0" cy="-18" rx="7" ry="18" fill="url(#gold)" transform="rotate(135)"/>
+      <ellipse cx="0" cy="-18" rx="7" ry="18" fill="url(#gold)" transform="rotate(180)"/>
+      <ellipse cx="0" cy="-18" rx="7" ry="18" fill="url(#gold)" transform="rotate(225)"/>
+      <ellipse cx="0" cy="-18" rx="7" ry="18" fill="url(#gold)" transform="rotate(270)"/>
+      <ellipse cx="0" cy="-18" rx="7" ry="18" fill="url(#gold)" transform="rotate(315)"/>
+    </g>
+    <text x="500" y="810" text-anchor="middle" font-family="Noto Serif Display, DejaVu Serif, Georgia, serif" font-weight="900" font-size="26" letter-spacing="1.5" fill="#061520">EST. 1923</text>
+    <text x="500" y="838" text-anchor="middle" font-family="Noto Serif Display, DejaVu Serif, Georgia, serif" font-weight="900" font-size="25" letter-spacing="1.5" fill="#061520">KALİTE VE GÜVEN</text>
+  </g>
+</svg>
