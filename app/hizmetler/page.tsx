@@ -12,7 +12,7 @@ export default function HizmetlerPage() {
       t: "Su Kaçak Tespiti", 
       d: "Termal kamera ve akustik cihazlarla kırmadan tespit.",
       detay: "Modern cihazlarımızla duvarların arkasındaki sızıntıları noktasal olarak belirliyoruz. Hiçbir yeri kırmadan sorunu tespit edip, sadece ilgili noktada işlem yaparak sizi ek masraflardan kurtarıyoruz.",
-      img: "/hizmetler/su-kacak.jpg" 
+      img: "/hizmetler/su-kacak.jpeg" 
     },
     { 
       t: "Tıkanıklık Açma", 
