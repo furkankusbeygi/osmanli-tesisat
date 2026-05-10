@@ -15,49 +15,49 @@ export default function Home() {
       t: "Su Kaçak Tespiti", 
       d: "Termal kamera ve akustik cihazlarla kırmadan tespit.",
       detay: "Modern cihazlarımızla duvarların arkasındaki sızıntıları noktasal olarak belirliyoruz. Hiçbir yeri kırmadan sorunu tespit edip, sadece ilgili noktada işlem yaparak sizi ek masraflardan kurtarıyoruz.",
-      img: "/hizmetler/su-kacak.jpg" 
+      img: "/hizmetler/su-kacak.jpeg" 
     },
     { 
       t: "Tıkanıklık Açma", 
       d: "Robot cihazlarla kırmadan gider açma hizmeti.",
       detay: "Mutfak, banyo ve tuvalet giderlerindeki tıkanıklıkları robot makinelerimizle açıyoruz. Kameralı görüntüleme sistemimizle tıkanıklığın sebebini görüntüleyip kesin çözüm sunuyoruz.",
-      img: "/hizmetler/tikaniklik.jpg" 
+      img: "/hizmetler/tikaniklik.jpeg" 
     },
     { 
       t: "Pimaş Yıkama", 
       d: "Gider borularının içini yüksek basınçla temizliyoruz.",
       detay: "Zamanla yağlanan ve daralan pimaş borularını yüksek basınçlı yıkama makineleriyle ilk günkü temizliğine kavuşturuyoruz. Bu işlem boru ömrünü uzatır ve kötü kokuları engeller.",
-      img: "/hizmetler/pimas-yikama.jpg" 
+      img: "/hizmetler/pimas-yikama.jpeg" 
     },
     { 
       t: "WC Banyo Tadilat", 
       d: "Komple banyo ve tuvalet yenileme çözümleri.",
       detay: "Eski banyonuzu tamamen yıkıp, tesisatından seramiğine kadar her şeyi anahtar teslim yeniliyoruz. Modern tasarımlar ve kaliteli işçilikle hayalinizdeki banyoyu kuruyoruz.",
-      img: "/hizmetler/banyo-tadilat.jpg" 
+      img: "/hizmetler/banyo-tadilat.jpeg" 
     },
     { 
       t: "Seramik", 
       d: "Profesyonel seramik ve fayans döşeme işçiliği.",
       detay: "Zemin ve duvar seramiklerinde milimetrik hassasiyetle çalışıyoruz. Estetik görünüm ve su sızdırmazlık garantisiyle en iyi markaların ürünlerini uyguluyoruz.",
-      img: "/hizmetler/seramik.jpg" 
+      img: "/hizmetler/seramik.jpeg" 
     },
     { 
       t: "Sıva Üstü Sıhhi Tesisat", 
       d: "Modern ve dekoratif boru döşeme sistemleri.",
       detay: "Kırma işlemi yapılamayan yerlerde veya dekoratif tercihlerde, temiz ve düzenli bir şekilde sıva üstü su tesisatı kurulumu yapıyoruz.",
-      img: "/hizmetler/siva-ustu.jpg" 
+      img: "/hizmetler/siva-ustu.jpeg" 
     },
     { 
       t: "Pimaş Gider Tesisat", 
       d: "Sıfırdan gider hattı kurulumu ve onarımı.",
       detay: "Atık su gider sistemlerinizi doğru eğim ve kaliteli malzeme ile kuruyoruz. Sızıntı yapmayan, tıkanmaya dirençli pimaş hatları sağlıyoruz.",
-      img: "/hizmetler/pimas-gider.jpg" 
+      img: "/hizmetler/pimas-gider.jpeg" 
     },
     { 
       t: "Kalorifer Tesisat", 
       d: "Kombi ve petek hattı kurulumu, bakımı.",
       detay: "Isınma sisteminizi en verimli şekilde projelendirip kuruyoruz. Radyatör montajı, kaçak onarımı ve tesisat temizliği ile kışı sıcak geçirmenizi sağlıyoruz.",
-      img: "/hizmetler/kalorifer.jpg" 
+      img: "/hizmetler/kalorifer.jpeg" 
     }
   ];
 
