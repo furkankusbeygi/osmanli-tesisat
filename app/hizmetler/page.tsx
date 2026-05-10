@@ -54,7 +54,7 @@ export default function HizmetlerPage() {
       t: "Kalorifer Tesisat", 
       d: "Kombi ve petek hattı kurulumu, bakımı.",
       detay: "Isınma sisteminizi en verimli şekilde projelendirip kuruyoruz. Radyatör montajı, kaçak onarımı ve tesisat temizliği ile kışı sıcak geçirmenizi sağlıyoruz.",
-      img: "/hizmetler/kalorifer.jpeg" 
+      img: "/hizmetler/kalorifer.jpeg"
     }
   ];
 
