@@ -1,8 +1,13 @@
-import React from 'react';
+"use client";
+
+import React, { useState } from 'react';
 import Link from 'next/link';
 import WhatsAppButton from '../components/WhatsAppButton';
 
 export default function Home() {
+  // Burger menünün açık/kapalı durumunu tutan state
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
     <div className="bg-white min-h-screen text-gray-900 font-sans selection:bg-[#3b82f6] selection:text-white">
       
@@ -18,14 +23,47 @@ export default function Home() {
             </div>
           </div>
 
+          {/* MASAÜSTÜ MENÜ (Mobilde Gizli) */}
           <div className="hidden md:flex items-center gap-6 font-medium">
             <Link href="/hizmetler" className="text-gray-600 hover:text-[#3b82f6] transition-colors">Hizmetlerimiz</Link>
             <Link href="/iletisim" className="text-gray-600 hover:text-[#3b82f6] transition-colors">İletişim</Link>
           </div>
-          <a href="tel:+905550833001" className="bg-[#3b82f6] text-white px-4 py-2 md:px-6 md:py-2.5 rounded-lg font-bold text-sm md:text-base transition-all shadow-md hover:bg-blue-600">
-            Tıkla Ara
-          </a>
+          
+          <div className="flex items-center gap-4">
+            {/* MASAÜSTÜ TIKLA ARA (Mobilde menünün içine koyacağız) */}
+            <a href="tel:+905550833001" className="hidden md:block bg-[#3b82f6] text-white px-4 py-2 md:px-6 md:py-2.5 rounded-lg font-bold text-sm md:text-base transition-all shadow-md hover:bg-blue-600">
+              Tıkla Ara
+            </a>
+
+            {/* MOBİL BURGER BUTONU (Masaüstünde Gizli) */}
+            <button 
+              className="md:hidden p-2 text-gray-900 focus:outline-none"
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+            >
+              <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                {isMenuOpen ? (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /> // Çarpı İkonu
+                ) : (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" /> // Burger İkonu
+                )}
+              </svg>
+            </button>
+          </div>
         </div>
+
+        {/* MOBİL AÇILIR MENÜ EKRANI */}
+        {isMenuOpen && (
+          <div className="md:hidden absolute top-[100%] left-0 w-full bg-white border-b border-gray-100 shadow-xl animate-in slide-in-from-top-2">
+            <div className="flex flex-col px-6 py-6 gap-5 font-bold text-center">
+              <Link href="/hizmetler" onClick={() => setIsMenuOpen(false)} className="block text-lg text-gray-800 hover:text-[#3b82f6]">Hizmetlerimiz</Link>
+              <Link href="/iletisim" onClick={() => setIsMenuOpen(false)} className="block text-lg text-gray-800 hover:text-[#3b82f6]">İletişim</Link>
+              <div className="h-px w-full bg-gray-100 my-2"></div>
+              <a href="tel:+905550833001" className="block bg-[#3b82f6] text-white px-4 py-4 rounded-xl font-black text-lg shadow-md active:scale-95 transition-transform">
+                HEMEN ARA
+              </a>
+            </div>
+          </div>
+        )}
       </header>
 
       {/* HERO BÖLÜMÜ VE YENİ HİZMET LİSTESİ */}
@@ -52,7 +90,6 @@ export default function Home() {
               Tıkanıklık açma, kırmadan su kaçağı tespiti, pimaş açma, petek temizliği ve sıhhi tesisat çözümlerinde hızlı ve profesyonel destek
             </p>
             
-            {/* YENİ EKLENEN 4'LÜ HİZMET KISMI */}
             <div className="flex flex-col sm:flex-row gap-6 items-start sm:items-center">
               <a href="tel:+905550833001" className="bg-[#3b82f6] text-white px-8 py-4 rounded-xl font-black text-center text-lg transition-all shadow-xl active:scale-95 shrink-0 w-full sm:w-auto hover:bg-blue-600">
                 HEMEN ARA
@@ -103,7 +140,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 4. HİZMETLERİMİZ - TÜM KARTLAR /hizmetler SAYFASINA GİDER */}
+      {/* 4. HİZMETLERİMİZ */}
       <section id="hizmetler" className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
