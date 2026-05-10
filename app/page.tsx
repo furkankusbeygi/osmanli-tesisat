@@ -45,11 +45,11 @@ export default function Home() {
               İstanbul'un Her Yerine 30 Dakika
             </span>
             <h1 className="text-4xl md:text-7xl font-extrabold tracking-tight mb-6 text-white leading-tight">
-              Profesyonel <br />
-              <span className="text-[#3b82f6]">Su Tesisatçısı</span>
+              Temiz İşçilik, Net Teşhis!<br />
+              <span className="text-[#3b82f6]">Güvenilir Su Tesisatı Servisi</span>
             </h1>
             <p className="text-gray-200 text-base md:text-xl mb-8 md:mb-10 leading-relaxed font-medium max-w-xl">
-              Kırmadan su kaçağı tespiti ve robotla tıkanıklık açma. Modern cihazlarla anında kapınızdayız.
+              Tıkanıklık açma, kırmadan su kaçağı tespiti, pimaş açma, petek temizliği ve sıhhi tesisat çözümlerinde hızlı ve profesyonel destek
             </p>
             
             {/* YENİ EKLENEN 4'LÜ HİZMET KISMI */}
