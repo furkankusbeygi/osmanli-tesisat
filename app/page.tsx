@@ -81,7 +81,10 @@ export default function Home() {
           </div>
           
           <div className="flex items-center gap-4">
-            <a href="tel:+905550833001" className="hidden md:block bg-[#3b82f6] text-white px-4 py-2 md:px-6 md:py-2.5 rounded-lg font-bold text-sm md:text-base transition-all shadow-md hover:bg-blue-600">
+            <a href="tel:+905550833001" className="hidden md:flex items-center gap-2 bg-[#FFD700] text-gray-900 px-4 py-2 md:px-6 md:py-2.5 rounded-lg font-bold text-sm md:text-base transition-all shadow-[0_0_15px_rgba(255,215,0,0.5)] hover:shadow-[0_0_25px_rgba(255,215,0,0.8)] hover:scale-105">
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
               Tıkla Ara
             </a>
 
@@ -106,7 +109,10 @@ export default function Home() {
               <Link href="/hizmetler" onClick={() => setIsMenuOpen(false)} className="block text-lg text-gray-800 hover:text-[#3b82f6]">Hizmetlerimiz</Link>
               <Link href="/iletisim" onClick={() => setIsMenuOpen(false)} className="block text-lg text-gray-800 hover:text-[#3b82f6]">İletişim</Link>
               <div className="h-px w-full bg-gray-100 my-2"></div>
-              <a href="tel:+905550833001" className="block bg-[#3b82f6] text-white px-4 py-4 rounded-xl font-black text-lg shadow-md active:scale-95 transition-transform">
+              <a href="tel:+905550833001" className="flex items-center justify-center gap-2 bg-[#FFD700] text-gray-900 px-4 py-4 rounded-xl font-black text-lg shadow-[0_0_15px_rgba(255,215,0,0.5)] active:scale-95 transition-transform">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
                 HEMEN ARA
               </a>
             </div>
@@ -139,7 +145,12 @@ export default function Home() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 items-start sm:items-center">
-              <a href="tel:+905550833001" className="bg-[#3b82f6] text-white px-8 py-4 rounded-xl font-black text-center text-lg transition-all shadow-xl active:scale-95 shrink-0 w-full sm:w-auto hover:bg-blue-600">
+              
+              {/* ANA BUTON - MÜŞTERİNİN İSTEDİĞİ SARI VE PARLAYAN HALİ */}
+              <a href="tel:+905550833001" className="flex items-center justify-center gap-3 bg-[#FFD700] text-gray-900 px-8 py-4 rounded-xl font-black text-center text-lg transition-all shadow-[0_0_20px_rgba(255,215,0,0.6)] hover:shadow-[0_0_30px_rgba(255,215,0,1)] active:scale-95 shrink-0 w-full sm:w-auto hover:bg-yellow-400">
+                <svg className="w-6 h-6 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
                 HEMEN ARA
               </a>
               
@@ -272,8 +283,11 @@ export default function Home() {
               <div className="flex gap-4">
                 <a 
                   href="tel:+905550833001" 
-                  className="flex-1 bg-[#3b82f6] text-white text-center py-4 rounded-xl font-black shadow-lg shadow-blue-200"
+                  className="flex-1 flex items-center justify-center gap-2 bg-[#FFD700] text-gray-900 text-center py-4 rounded-xl font-black shadow-[0_0_15px_rgba(255,215,0,0.5)] hover:scale-105 transition-transform"
                 >
+                  <svg className="w-5 h-5 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg>
                   Hemen Ara
                 </a>
                 <button 

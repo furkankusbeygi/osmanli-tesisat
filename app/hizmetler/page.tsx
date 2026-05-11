@@ -56,7 +56,7 @@ export default function HizmetlerPage() {
       detay: "Isınma sisteminizi en verimli şekilde projelendirip kuruyoruz. Radyatör montajı, kaçak onarımı ve tesisat temizliği ile kışı sıcak geçirmenizi sağlıyoruz.",
       img: "/hizmetler/kalorifer.jpeg"
     }
-  ];
+  ]; 
 
   return (
     <div className="bg-white min-h-screen">
