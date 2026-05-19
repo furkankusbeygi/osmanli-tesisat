@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Script from 'next/script';
 import WhatsAppButton from '../components/WhatsAppButton';
 
 export default function Home() {
@@ -61,6 +62,19 @@ export default function Home() {
 
   return (
     <div className="bg-white min-h-screen text-gray-900 font-sans selection:bg-[#3b82f6] selection:text-white">
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-HDB19FWC13"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-HDB19FWC13');
+        `}
+      </Script>
+
       <header className="fixed top-0 w-full z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 h-16 md:h-20 flex items-center justify-between">
           <div className="flex items-center gap-3 shrink-0">
@@ -107,6 +121,7 @@ export default function Home() {
           </div>
         )}
       </header>
+
       <section className="relative pt-32 pb-20 md:pt-48 md:pb-32 flex items-center min-h-[90vh] md:min-h-[85vh]" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=2070&auto=format&fit=crop')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/80 to-blue-900/60"></div>
         <div className="max-w-7xl mx-auto px-6 w-full relative z-10">
@@ -142,6 +157,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       <section id="neden-biz" className="py-20 bg-gray-50 border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8 text-center">
@@ -164,6 +180,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       <section id="hizmetler" className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
@@ -187,6 +204,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       <footer className="py-12 bg-gray-50 border-t border-gray-200">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6 mb-10">
@@ -214,6 +232,7 @@ export default function Home() {
           </div>
         </div>
       </footer>
+
       {seciliHizmet && (
         <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
           <div className="absolute inset-0 bg-slate-900/60 backdrop-blur-sm" onClick={() => setSeciliHizmet(null)}></div>
