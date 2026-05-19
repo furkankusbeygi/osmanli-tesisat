@@ -213,7 +213,7 @@ export default function Home() {
               <span>OSMANLI<span className="text-[#3b82f6]">TESİSAT</span></span>
             </div>
             <p className="text-gray-400 text-[10px] md:text-xs max-w-md text-center md:text-right font-medium leading-relaxed uppercase tracking-wider">
-              osmanlitesisat.com bağımsız bir iletişim platformudur. Sitede yer alan hizmetlerin ifasından doğacak yasal sorumluluk tesisat ustasına aittir. &copy; {new Date().getFullYear()}
+              osmanlitesisat.com. Tüm Hakları Saklıdır. &copy; {new Date().getFullYear()}
             </p>
           </div>
           <div className="pt-8 border-t border-gray-200/60 flex justify-center items-center">
