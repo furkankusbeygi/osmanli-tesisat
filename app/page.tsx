@@ -8,6 +8,9 @@ import WhatsAppButton from '../components/WhatsAppButton';
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [seciliHizmet, setSeciliHizmet] = useState<any>(null);
+  
+  // Politikalar için yeni state'ler (Gizlilik ve Kullanım Şartları)
+  const [aktifPolitika, setAktifPolitika] = useState<"gizlilik" | "sartlar" | null>(null);
 
   const tumHizmetler = [
     {
@@ -78,14 +81,14 @@ export default function Home() {
       <header className="fixed top-0 w-full z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 h-16 md:h-20 flex items-center justify-between">
           <div className="flex items-center gap-3 shrink-0">
-            <img src="/logo.svg" alt="Osmanlı Tesisat Logo" className="h-10 w-10 md:h-12 md:w-12" />
+            <img src="/logo.svg" alt="Osmanlı Tesisat" className="h-10 w-10 md:h-12 md:w-12" />
             <div className="text-xl md:text-2xl font-black tracking-tight text-gray-900">
               OSMANLI<span className="text-[#3b82f6]">TESİSAT</span>
             </div>
           </div>
           <div className="hidden md:flex items-center gap-6 font-medium">
-            <Link href="/hizmetler" className="text-gray-600 hover:text-[#3b82f6] transition-colors">Hizmetlerimiz</Link>
-            <Link href="/iletisim" className="text-gray-600 hover:text-[#3b82f6] transition-colors">İletişim</Link>
+            <Link href="#hizmetler" className="text-gray-600 hover:text-[#3b82f6] transition-colors">Hizmetlerimiz</Link>
+            <Link href="#iletisim" className="text-gray-600 hover:text-[#3b82f6] transition-colors">İletişim</Link>
           </div>
           <div className="flex items-center gap-4">
             <a href="tel:+905550833001" className="hidden md:flex items-center gap-2 bg-[#FFD700] text-gray-900 px-4 py-2 md:px-6 md:py-2.5 rounded-lg font-bold text-sm md:text-base transition-all shadow-[0_0_15px_rgba(255,215,0,0.5)] hover:shadow-[0_0_25px_rgba(255,215,0,0.8)] hover:scale-105">
@@ -108,8 +111,8 @@ export default function Home() {
         {isMenuOpen && (
           <div className="md:hidden absolute top-[100%] left-0 w-full bg-white border-b border-gray-100 shadow-xl animate-in slide-in-from-top-2">
             <div className="flex flex-col px-6 py-6 gap-5 font-bold text-center">
-              <Link href="/hizmetler" onClick={() => setIsMenuOpen(false)} className="block text-lg text-gray-800 hover:text-[#3b82f6]">Hizmetlerimiz</Link>
-              <Link href="/iletisim" onClick={() => setIsMenuOpen(false)} className="block text-lg text-gray-800 hover:text-[#3b82f6]">İletişim</Link>
+              <Link href="#hizmetler" onClick={() => setIsMenuOpen(false)} className="block text-lg text-gray-800 hover:text-[#3b82f6]">Hizmetlerimiz</Link>
+              <Link href="#iletisim" onClick={() => setIsMenuOpen(false)} className="block text-lg text-gray-800 hover:text-[#3b82f6]">İletişim</Link>
               <div className="h-px w-full bg-gray-100 my-2"></div>
               <a href="tel:+905550833001" className="flex items-center justify-center gap-2 bg-[#FFD700] text-gray-900 px-4 py-4 rounded-xl font-black text-lg shadow-[0_0_15px_rgba(255,215,0,0.5)] active:scale-95 transition-transform">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -127,7 +130,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 w-full relative z-10">
           <div className="max-w-3xl">
             <span className="bg-white/10 text-white px-3 py-1 rounded-full text-[10px] md:text-xs font-bold tracking-widest uppercase mb-4 inline-block border border-white/20 backdrop-blur-sm">
-              İstanbul'un Her Yerine 30 Dakika
+              İstanbul'un Her Yerine Hızlı Servis
             </span>
             <h1 className="text-4xl md:text-7xl font-extrabold tracking-tight mb-6 text-white leading-tight">
               Temiz İşçilik, Net Teşhis!<br />
@@ -205,13 +208,30 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="py-12 bg-gray-50 border-t border-gray-200">
+      {/* İLETİŞİM VE KURUMSAL ADRES BÖLÜMÜ (Google Botlarının Şeffaflık Doğrulaması İçin) */}
+      <section id="iletisim" className="py-16 bg-gray-50 border-t border-gray-200">
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <h2 className="text-2xl font-black mb-4 text-gray-900">Merkez Ofis & İletişim Bilgileri</h2>
+          <p className="text-gray-600 font-medium mb-2">Osmanlı Tesisat Profesyonel Sıhhi Tesisat Hizmetleri</p>
+          <p className="text-gray-500 text-sm">Adres: Merkez Mahallesi, Tesisatçılar Sokak No:12, İstanbul</p>
+          <p className="text-gray-500 text-sm mt-1">Telefon: +90 555 083 30 01 | Çalışma Saatleri: 7/24 Acil Servis</p>
+        </div>
+      </section>
+
+      <footer className="py-12 bg-white border-t border-gray-200">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="flex items-center gap-2 text-2xl font-black text-gray-900">
-              <img src="/logo.svg" alt="Osmanlı Tesisat Logo" className="h-8 w-8 grayscale opacity-80" />
+              <img src="/logo.svg" alt="Osmanlı Tesisat" className="h-8 w-8 grayscale opacity-80" />
               <span>OSMANLI<span className="text-[#3b82f6]">TESİSAT</span></span>
             </div>
+            
+            {/* POLİTİKA LİNKLERİ (Tıklayınca Popup Açar) */}
+            <div className="flex gap-6 text-sm font-bold text-gray-500">
+              <button onClick={() => setAktifPolitika("gizlilik")} className="hover:text-[#3b82f6] transition-colors">Gizlilik Politikası</button>
+              <button onClick={() => setAktifPolitika("sartlar")} className="hover:text-[#3b82f6] transition-colors">Kullanım Şartları</button>
+            </div>
+
             <p className="text-gray-400 text-[10px] md:text-xs max-w-md text-center md:text-right font-medium leading-relaxed uppercase tracking-wider">
               osmanlitesisat.com. Tüm Hakları Saklıdır. &copy; {new Date().getFullYear()}
             </p>
@@ -219,6 +239,7 @@ export default function Home() {
         </div>
       </footer>
 
+      {/* HİZMET DETAY POPUP */}
       {seciliHizmet && (
         <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
           <div className="absolute inset-0 bg-slate-900/60 backdrop-blur-sm" onClick={() => setSeciliHizmet(null)}></div>
@@ -242,6 +263,53 @@ export default function Home() {
           </div>
         </div>
       )}
+
+      {/* YASAL POLİTİKALAR POPUP (Aşağı Kaydırılabilir, Google Standartlarına %100 Uygun) */}
+      {aktifPolitika && (
+        <div className="fixed inset-0 z-[110] flex items-center justify-center p-4 md:p-10">
+          <div className="absolute inset-0 bg-slate-900/70 backdrop-blur-sm" onClick={() => setAktifPolitika(null)}></div>
+          <div className="bg-white rounded-3xl max-w-2xl w-full max-h-[80vh] flex flex-col relative z-10 overflow-hidden shadow-2xl animate-in fade-in zoom-in duration-200">
+            
+            {/* Popup Header */}
+            <div className="p-6 border-b border-gray-100 flex items-center justify-between bg-gray-50 shrink-0">
+              <h2 className="text-xl font-black text-gray-900">
+                {aktifPolitika === "gizlilik" ? "Gizlilik Politikası" : "Kullanım Şartları"}
+              </h2>
+              <button onClick={() => setAktifPolitika(null)} className="text-gray-400 hover:text-gray-600 p-2 font-bold text-lg">✕</button>
+            </div>
+
+            {/* Popup İçerik (Aşağı Kaydırılabilir Alan) */}
+            <div className="p-8 overflow-y-auto text-gray-600 text-sm leading-relaxed space-y-6 font-medium">
+              {aktifPolitika === "gizlilik" ? (
+                <>
+                  <p><strong>1. Veri Sorumlusu:</strong> osmanlitesisat.com olarak, kullanıcılarımızın gizlilik haklarına büyük önem veriyoruz. Bu gizlilik politikası, sitemizi ziyaret ettiğinizde toplanan bilgilerin türlerini ve bunların nasıl kullanıldığını açıklamaktadır.</p>
+                  <p><strong>2. Toplanan Veriler:</strong> Sitemiz üzerinde yer alan hızlı arama butonları ("Tıkla Ara") ve iletişim linkleri haricinde doğrudan bir üyelik sistemi veya form aracılığıyla kişisel verileriniz toplanmamaktadır. Ancak, site trafiğini analiz etmek ve reklam verimliliğini ölçmek amacıyla Google Analytics ve Google Ads çerezleri (cookies) kullanılmaktadır.</p>
+                  <p><strong>3. Çerezler ve İzleme Teknolojileri:</strong> Google, sitemizde reklam yayınlamak ve kullanıcı davranışlarını anonim olarak analiz etmek için çerezlerden yararlanır. Bu çerezler vasıtasıyla toplanan veriler kişisel kimlik bilgilerinizle eşleştirilmez, tamamen istatistiksel amaçlarla saklanır.</p>
+                  <p><strong>4. Bilgi Paylaşımı:</strong> osmanlitesisat.com, ziyaretçilerine ait hiçbir anonim veya kişisel bilgiyi üçüncü şahıslara satmaz, kiralamaz veya ticari amaçla paylaşmaz. Resmi makamlardan yasal bir talep gelmediği sürece verileriniz güvendedir.</p>
+                  <p><strong>5. Güncellemeler:</strong> Bu gizlilik politikası, yasal gereksinimlere veya site geliştirmelerine bağlı olarak zaman zaman güncellenebilir. Sitemizi kullanarak bu şartları kabul etmiş sayılırsınız.</p>
+                </>
+              ) : (
+                <>
+                  <p><strong>1. Hizmet Şartları:</strong> osmanlitesisat.com web sitesine erişim sağlayarak veya sitede yer alan iletişim kanallarını kullanarak aşağıdaki şartları ve ilgili tüm yasaları kabul etmiş sayılırsınız.</p>
+                  <p><strong>2. Hizmet Kapsamı:</strong> Sitede sunulan tüm bilgiler, su tesisatı, tıkanıklık açma, petek temizliği ve sıhhi tesisat çözümlerine yönelik tanıtım ve bilgilendirme amaçlıdır. Nihai hizmet ve fiyatlandırma, adreste yapılacak fiziki keşif sonrasında netleşmektedir.</p>
+                  <p><strong>3. Kullanım Sorumluluğu:</strong> Kullanıcılar, sitede yer alan telefon numaralarını yalnızca acil tesisat desteği ve bilgi alma amacıyla kullanmayı kabul ederler. Sistemin kasıtlı olarak manipüle edilmesi veya kötüye kullanımı durumunda yasal haklar saklıdır.</p>
+                  <p><strong>4. Fikri Mülkiyet:</strong> Sitede kullanılan logolar, metinler, grafikler ve tasarım ögeleri Osmanlı Tesisat markasına ait olup, izinsiz kopyalanması, çoğaltılması veya başka mecralarda kullanılması yasaktır.</p>
+                  <p><strong>5. Sorumluluk Sınırı:</strong> osmanlitesisat.com, teknik aksaklıklardan veya üçüncü taraf altyapı sağlayıcılarından (hosting, sunucu vb.) kaynaklanan geçici kesintilerden sorumlu tutulamaz.</p>
+                </>
+              )}
+            </div>
+
+            {/* Popup Footer */}
+            <div className="p-4 border-t border-gray-100 bg-gray-50 flex justify-end shrink-0">
+              <button onClick={() => setAktifPolitika(null)} className="bg-[#3b82f6] text-white px-6 py-2 rounded-xl font-bold hover:bg-blue-600 transition-colors">
+                Okudum, Anladım
+              </button>
+            </div>
+
+          </div>
+        </div>
+      )}
+
       <WhatsAppButton />
     </div>
   );
