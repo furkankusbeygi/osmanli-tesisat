@@ -207,7 +207,7 @@ export default function Home() {
 
       <footer className="py-12 bg-gray-50 border-t border-gray-200">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-6 mb-10">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="flex items-center gap-2 text-2xl font-black text-gray-900">
               <img src="/logo.svg" alt="Osmanlı Tesisat Logo" className="h-8 w-8 grayscale opacity-80" />
               <span>OSMANLI<span className="text-[#3b82f6]">TESİSAT</span></span>
@@ -215,20 +215,6 @@ export default function Home() {
             <p className="text-gray-400 text-[10px] md:text-xs max-w-md text-center md:text-right font-medium leading-relaxed uppercase tracking-wider">
               osmanlitesisat.com. Tüm Hakları Saklıdır. &copy; {new Date().getFullYear()}
             </p>
-          </div>
-          <div className="pt-8 border-t border-gray-200/60 flex justify-center items-center">
-            <a href="https://denizdigitaloperate.com/" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-2.5 text-gray-400 hover:text-gray-800 transition-all duration-300">
-              <span className="text-[10px] font-bold tracking-[0.25em] uppercase opacity-60 group-hover:opacity-100 transition-opacity">Developed by</span>
-              <div className="flex items-center gap-2">
-                <div className="w-6 h-6 bg-gray-900 rounded flex items-center justify-center group-hover:bg-[#3b82f6] transition-all duration-500 shadow-sm group-hover:shadow-[#3b82f6]/30">
-                  <span className="text-[11px] text-white font-black">D</span>
-                </div>
-                <div className="flex flex-col leading-none">
-                  <span className="text-[11px] font-black tracking-tighter text-gray-800">DENİZ DIGITAL</span>
-                  <span className="text-[8px] font-bold tracking-[0.1em] text-gray-400 group-hover:text-[#3b82f6]">OPERATE</span>
-                </div>
-              </div>
-            </a>
           </div>
         </div>
       </footer>

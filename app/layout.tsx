@@ -29,23 +29,19 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <head>
-        {/* GOOGLE ADS GLOBAL SİTE ETİKETİ (gtag.js) */}
+        {/* TERTEMİZ GA4 ENTEGRASYONU (Merkezi Yönetim) */}
         <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-HDB19FWC13"
           strategy="afterInteractive"
-          src={`https://www.googletagmanager.com/gtag/js?id=AW-18155895992`}
         />
-        <Script
-          id="google-ads-tag"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'AW-18155895992');
-            `,
-          }}
-        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){window.dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-HDB19FWC13');
+          `}
+        </Script>
       </head>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
